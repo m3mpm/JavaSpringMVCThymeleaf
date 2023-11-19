@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class ProductService {
 
-    private List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>();
 
     public void addProduct(Product p){
         products.add(p);
